@@ -16,8 +16,8 @@ open class DropDownCell: UITableViewCell {
 	@IBOutlet open weak var optionLabel: UILabel!
 	
 	var selectedBackgroundColor: UIColor?
-    var highlightTextColor: UIColor?
-    var normalTextColor: UIColor?
+    	open var highlightTextColor: UIColor?
+    	open var normalTextColor: UIColor?
 
 }
 
